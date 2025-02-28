@@ -1,2 +1,3 @@
-# forest_plot
-R code for a nice forest plot
+# Forest Plot
+
+R code for a nice forest plot, specifically intended to display regression output.
