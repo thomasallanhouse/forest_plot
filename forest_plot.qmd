@@ -9,6 +9,18 @@ editor: visual
 
 We start by
 
+```{r}
+library(ggplot2)
+library(palmerpenguins)
+
+model <- lm(
+  bill_length_mm ~ bill_depth_mm + flipper_length_mm + body_mass_g + sex,
+  data = penguins,
+  na.action = na.omit
+)
+
+```
+
 
 
 ## Running Code
